@@ -18,7 +18,6 @@ This regex will answer if a text is a valid URL.
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
 
 ## Regex Components
 
@@ -53,12 +52,6 @@ For example: ```<.+>``` is a greedy match while ```<.+?>``` is a lazy match.
 If you have the following code:
 ```<h1>Hello World!</h1>```
 The greedy match will be ```<h1>Hello World!<h1>``` while the lazy match will be ```<h1>``` and ```</h1>```.
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
